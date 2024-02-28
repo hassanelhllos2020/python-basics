@@ -8,5 +8,4 @@ a.append(inn1)
 a.append(inn2)
 a.append(inn3)
 a.append(inn4)
-
 print(a)
