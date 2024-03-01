@@ -41,3 +41,8 @@ print(humans[3])
 print(humans[1]['name'], humans[2]['name'], humans[3]['name'])
 humans[3]['height'] = 50
 print(humans[3])
+print("#------------------------------------#")
+humans[4] = {'name':input("enter name: ")}
+humank = input("enter key: ")
+humans[4][humank] = input("enter value: ")
+print(humans)
