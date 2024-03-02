@@ -25,12 +25,24 @@ print( " - ".join(m) )
 print("--------------------------partition")
 mn = "ahmed : 19 years old - married "
 print(mn.partition(":"))
-print("#--------------------------#")
+print("...-----------------...")
+print(f"zeros: {55:03}")
+print(f'float: {22.33445:.4f} ' )
+print(f'decimal left: {22:>5d} ' )
+print(f'decimal right:{22:<5d} ' )
+print(f'grouping digits:  {100000:,d} ' )
+print(f'chr: {78:c}')
+print("------------------Character Checks")
+print( '27'.isdigit() )
+print( 'a27'.isalnum() )
+
 #
+print("#--------------------------#")
 #msg = "hello mr {n}, your age is {age} ".format(n = input("enter your name: "),age = 2024 - int(input("enter your birthday: ")))
 #print(msg)
 #
 n = input("enter your name: ")
 age = 2024 - int(input("enter your birthday: "))
-msg = "hello mr {}, your age is {} ".format(n,age)
-print(msg)
+#msg = "hello mr {}, your age is {} ".format(n,age)
+msg = f"hello mr {n}, your age is {age} "
+print(msg) 
