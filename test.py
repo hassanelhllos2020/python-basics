@@ -1,2 +1,6 @@
-a = (ord("z") - 65 ) + 97 
-print(ord("z"))
+#title function
+#min & max
+#split , join
+#len
+#sort
+print("hassan".upper())
