@@ -6,5 +6,7 @@ with open("pi.txt") as pii:
 # readline returns a list of chars
 #print(piii)  -> returns a list of lines
 print(f"length: {len(piii)}")
-for i in range(0, len(piii)):
-    print(f"{i} : {piii[i].strip()}")
+n = 0
+for i in piii:
+    print(f"{n} : {i.strip()}")
+    n+=1
